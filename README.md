@@ -1,6 +1,9 @@
 # README
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Cowsay_Typical_Output.png" />
 
 ```
+cowsay --help
+
 cow{say,think} version 3.03, (c) 1999 Tony Monroe
 Usage: cowthink [-bdgpstwy] [-h] [-e eyes] [-f cowfile]
           [-l] [-n] [-T tongue] [-W wrapcolumn] [message]
