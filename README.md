@@ -48,3 +48,24 @@ docker run icaoberg/cowsay cowsay -f flaming-sheep "This is Sparta\!"
                 `YY~~~~YY'
                  ||    ||
 ```
+
+or
+
+```
+docker pull icaoberg/cowsay
+docker run icaoberg/cowsay cowsay -f flaming-sheep "This is Sparta\!"
+ _________________
+< This is Sparta! >
+ -----------------
+  \            .    .     .
+   \      .  . .     `  ,
+    \    .; .  : .' :  :  : .
+     \   i..`: i` i.i.,i  i .
+      \   `,--.|i |i|ii|ii|i:
+           UooU\.'@@@@@@`.||'
+           \__/(@@@@@@@@@@)'
+                (@@@@@@@@)
+                `YY~~~~YY'
+                 ||    ||
+```
+
