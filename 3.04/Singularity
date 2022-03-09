@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: alpine:edge
+From: ubuntu:latest
 
 %labels
     MAINTAINER icaoberg
@@ -9,6 +9,10 @@ From: alpine:edge
     COPYRIGHT Copyright © 2022 Pittsburgh Supercomputing Center. All Rights Reserved.
     VERSION 
 
+%environment
+    export LC_ALL=C
+    export PATH=/usr/games:$PATH
+
 %post
-    apk update
-    apk add cowsay=3.04
+    apt update
+    apt install -y cowsay
