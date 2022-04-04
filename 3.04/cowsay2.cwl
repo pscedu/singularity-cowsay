@@ -5,8 +5,6 @@ class: CommandLineTool
 
 requirements:
   SubworkflowFeatureRequirement: {}
-
-hints:
   DockerRequirement:
     dockerPull: icaoberg/cowsay
 

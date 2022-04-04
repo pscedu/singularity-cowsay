@@ -1,12 +1,10 @@
 #!/usr/bin/env cwl-runner
 
-cwlVersion: v1.0
+cwlVersion: v1.2
 class: CommandLineTool
 
 requirements:
   SubworkflowFeatureRequirement: {}
-
-hints:
   DockerRequirement:
     dockerPull: icaoberg/cowsay
 
@@ -16,12 +14,12 @@ inputs:
     type: string
     inputBinding:
       position: 2
-    default: "flaming-sheep"
 
   format:
     type: string
     inputBinding:
       position: 1
       prefix: -f
+    default: "flaming-sheep"
 
 outputs: []
